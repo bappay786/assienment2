@@ -1,0 +1,60 @@
+*{
+    
+}
+body{
+font-family: 'Gulzar', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.continer-header{
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+display: flex;
+position: absolute;
+width: 1321px;
+height: 646px;
+left: 140px;
+top: 43px;
+
+background: #161616;
+border-radius: 30px;
+}
+.details{
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 50px;
+    color: aliceblue;
+    fo
+    border: 1px solid red;
+    width: 40%;
+}
+.details > h1{
+    font-size: 70px;
+}
+.details > p{
+    font-size: 16px;
+}
+
+.details > button{
+    color: aliceblue;
+    font-size: 16px;
+    background: #DD0000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-pic{
+    box-sizing: border-box;
+    padding-right: 10px;
+    width: 60%;
+  
+    
+}
+.header-pic > img{
+position: absolute;
+width: 581px;
+height: 613px;
+left: 700px;
+top: 33px;
+}
