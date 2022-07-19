@@ -206,3 +206,6 @@ hr{
 .social >P{
     margin-left: 20px;
 }
+.social > p > a >.fa-brands{
+    color: aliceblue;
+}
