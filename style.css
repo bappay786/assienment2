@@ -112,6 +112,12 @@ margin-bottom: 10px;
     border-radius: 10px;
 
 }
+.manu > a:hover{
+    background-color: #DD0000;
+    
+   
+
+}
 /*--------------------- display grid-------------------------*/
 .grid-item{
     box-sizing: border-box;
@@ -271,6 +277,12 @@ hr{
      color: black;
      background: none;
     }
+    .manu > a:hover{
+        background-color: #DD0000;
+        
+       
+    
+    }
 
     .grid-item{
         box-sizing: border-box;
@@ -295,7 +307,14 @@ hr{
     .fot-continer{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
    
     
