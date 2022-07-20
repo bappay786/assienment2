@@ -138,9 +138,7 @@ margin-bottom: 10px;
     margin-bottom: 10px;
 
 }
-.card-details{
 
-}
 .info >button{
     font-size: 20px;
 }
@@ -166,7 +164,7 @@ span{
 
 
 
-/*----------------------------end card---------------------------------*/
+     /*----------------------------end card---------------------------------*/
 footer{
     margin-top: 100px;
     box-sizing: border-box;
@@ -176,7 +174,7 @@ footer{
     color: aliceblue;
     background-color: black;
     text-align: center;
-   padding: 20px;
+     padding: 20px;
 }
 hr{
     
@@ -209,3 +207,100 @@ hr{
 .social > p > a >.fa-brands{
     color: aliceblue;
 }
+
+@media screen and (max-width:576px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .continer-header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:100vh;
+       
+    }
+    .details{
+       width: fit-content;
+       height: fit-content;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    .details > h1{
+        font-size: 40px;
+    }
+    .header-pic{
+       width: fit-content;
+       height: fit-content;
+        text-align: center;
+    }
+    .header-pic > img{
+        margin-top: 45px;
+        width:fit-content;
+        height: fit-content;
+    }
+
+    .main-continer{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .manu{
+        box-sizing: border-box;
+        align-items: center;
+        padding: 5px;
+        width:100%;
+        height: 312px;
+        background :none;
+        display: block;
+        
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .manu > a{
+     border: 1px solid red;
+     color: black;
+     background: none;
+    }
+
+    .grid-item{
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+       display: grid;
+       grid-gap:20px;
+       margin-left: 0px;
+       grid-template-columns: repeat(1,auto);
+    
+    
+    }
+
+
+    .para{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        
+    }
+    .fot-continer{
+        display: flex;
+        flex-direction: column;
+
+    }
+   
+    
+
+}
+  /*--small device----------------------------------*/
+
+
